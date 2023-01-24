@@ -14,13 +14,13 @@
 <body>
     <header>
         <nav>
-            <div class="flex justify-between items-center mt-10">    
+            <div class=" md:flex justify-between items-center mt-10">    
                 <div class="ml-36">
                     <img class="text-black" src="images/logo2.png" alt="">
                 </div>
                 <div class="flex gap-32 ">
                     <div>
-                        <ul class="flex gap-10 font-normal">
+                        <ul class="md:flex gap-10 font-normal">
                             <li><a href="">Home</a></li>
                             <li><a href="">Services <i class="fa-solid fa-angle-right"></i></a></li>
                             <li><a href="">Cases <i class="fa-solid fa-angle-right"></i></a></li>
@@ -36,7 +36,7 @@
         </nav>
         <!-- banner code -->
         <section>
-            <div class="ml-36 mt-12" style="height: 100vh; background-repeat: no-repeat; background-image: url('images/banner.png');">
+            <div class="ml-36 mt-12  md:w-full" style="height: 100vh; background-repeat: no-repeat; background-image: url('images/banner.png');">
                 <h1 class="text-white text-center text-6xl font-semibold pr-36 pt-12 ">We Provide Effective <br> Legal Solutions</h1>
                 <p class="text-white text-center pr-32 py-8">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
                 <div class="flex justify-center gap-8">
@@ -368,14 +368,14 @@
                 <div>
                     <div>
                         <form action="" class="mb-3">
-                            <input type="text" class="mb-8 py-5 pl-4" placeholder="Your Name" style="background: #F3F3F3;"><br>
-                            <input type="email" class="mb-8 py-5 pl-4" placeholder="Your Email"style="background: #F3F3F3;"><br>
-                            <input type="text" class="mb-8 py-5 pl-4" placeholder="Subject"style="background: #F3F3F3;">
+                            <input type="text" class="mb-8 py-5 pl-4 rounded-lg" placeholder="Your Name" style="background: #F3F3F3;"><br>
+                            <input type="email" class="mb-8 py-5 pl-4 rounded-lg" placeholder="Your Email"style="background: #F3F3F3;"><br>
+                            <input type="text" class="mb-8 py-5 pl-4 rounded-lg" placeholder="Subject"style="background: #F3F3F3;">
                         </form>
                     </div>
                     <div>
-                        <textarea placeholder="Your Message" id="" cols="30" rows="5" style="background: #F3F3F3;"></textarea><br>
-                    <button style="width: 500px; height: 60px; background: #B68C5A;">Send Message</button>
+                        <textarea placeholder="Your Message" id="" cols="30" rows="5" class="rounded-lg" style="background: #F3F3F3;"></textarea><br>
+                    <button class="rounded-lg text-white" style="width: 500px; height: 60px; background: #B68C5A;">Send Message</button>
                     </div>
                 </div>
             </div>
@@ -384,11 +384,11 @@
     <footer class="mt-10">
         <div class="bg-black text-white flex justify-around items-center pt-8">
             <div>
-                <img src="images/logo.png" alt="">
-                <p class="py-8">There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
+                <img class="pb-20" src="images/logo.png" alt="">
+                <p class="pb-8">There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
             </div>
             <div>
-                <h3 class="text-2xl font-semibold">Useful Link</h3>
+                <h3 class="text-2xl font-semibold pt-10">Useful Link</h3>
                 <ul>
                     <li class="py-4"><a href="">Homes</a></li>
                     <li class="py-4"><a href="">About Us</a></li>
@@ -408,10 +408,10 @@
             </div>
             <div>
                 <h3 class="text-2xl font-semibold pb-8">Subscribe</h3>
-                <p class="py-6">Subscribe for our latest & Articles. We Won't Give You Spam Mails</p>
+                <p class="py-6">Subscribe for our latest & <br> Articles. We Won't Give You <br> Spam Mails</p>
                 <form action="">
-                    <input type="email" name="" id="" placeholder="Email Address" style="width: 324px;
-                    height: 60px;"><i class="fa-sharp fa-solid fa-arrow-pointer bg-white"></i>
+                    <input type="email" class="rounded-lg" name="" id="" placeholder="Email Address" style="width: 324px;
+                    height: 60px;"><i class="fa-sharp fa-solid fa-arrow-pointer mt-5 text-center text-4xl w-10 h-12 bg-white rounded-lg" style="background: #B68C5A;"></i>
                 </form>
             </div>
         </div>
